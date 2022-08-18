@@ -1,10 +1,18 @@
 body {
-  max-width: 375px;
-  width: 100%;
+  /*  max-width: 375px;
+  width: 100%; */
 }
 
 header {
   background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
 }
 
 nav {
@@ -22,6 +30,10 @@ footer {
 }
 
 .logo {
-  max-width: 50px;
-  width: 100%;
+  flex-grow: 1;
+}
+
+.header-div {
+  flex-grow: 1;
+  width: 50px;
 }
