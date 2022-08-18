@@ -4,8 +4,6 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-body {
-}
 
 .title {
   flex-grow: 1;
@@ -25,10 +23,6 @@ section {
   background-color: wheat;
 }
 
-footer {
-  background-color: coral;
-}
-
 .logo {
   flex-grow: 1;
 }
@@ -44,9 +38,25 @@ nav a {
   color: black;
 }
 
+footer {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top-style: solid;
+}
+
+footer img {
+  max-width: 40px;
+  width: 100%;
+}
+
 @media only screen and (min-width: 376px) {
   body {
     background-color: rgb(199, 15, 15);
+  }
+  nav {
+    flex-direction: row;
   }
 }
 
@@ -54,4 +64,7 @@ nav a {
   body {
     background-color: rgb(5, 61, 80);
   }
+  /*  nav {
+    flex-direction: row;
+  } */
 }
