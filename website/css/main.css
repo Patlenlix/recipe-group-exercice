@@ -1,5 +1,5 @@
 body {
-  /*  max-width: 375px;
+  /*   max-width: 375px;
   width: 100%; */
 }
 
@@ -36,4 +36,16 @@ footer {
 .header-div {
   flex-grow: 1;
   width: 50px;
+}
+
+@media only screen and (min-width: 376px) {
+  body {
+    background-color: rgb(199, 15, 15);
+  }
+}
+
+@media only screen and (min-width: 821px) {
+  body {
+    background-color: rgb(5, 61, 80);
+  }
 }
