@@ -1,0 +1,22 @@
+body {
+  max-width: 375px;
+  width: 100%;
+}
+
+header {
+  background-color: aqua;
+}
+
+nav {
+  background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  background-color: wheat;
+}
+
+footer {
+  background-color: coral;
+}
