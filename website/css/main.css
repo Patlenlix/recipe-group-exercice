@@ -1,17 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Courgette&display=swap%22");
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
 header {
-  background-color: aqua;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .title {
   flex-grow: 1;
   text-align: center;
+  font-family: "Courgette", cursive;
 }
 
 nav {
-  background-color: chartreuse;
+  background-color: rgb(254, 218, 208);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +30,7 @@ nav {
 }
 
 section {
-  background-color: wheat;
+  background-color: rgb(255, 208, 55);
 }
 
 .logo {
@@ -39,11 +49,16 @@ nav a {
 }
 
 footer {
+  display: flex;
+  justify-content: flex-start;
   background-color: white;
   position: fixed;
   bottom: 0;
   width: 100%;
   border-top-style: solid;
+  left: 0;
+  gap: 20px;
+  align-items: center;
 }
 
 footer img {
@@ -64,7 +79,4 @@ footer img {
   body {
     background-color: rgb(5, 61, 80);
   }
-  /*  nav {
-    flex-direction: row;
-  } */
 }
